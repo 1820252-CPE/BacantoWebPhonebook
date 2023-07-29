@@ -1,0 +1,74 @@
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+
+/* Style for the center overlay */
+#center-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1; /* Changed to move behind the form */
+}
+
+/* Style for the image */
+#center-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+height: 100vh; /* Set body height to full viewport height */
+background-image: url("backgpb.png");
+background-size: cover; /* Fill the background image */
+background-position: center; /* Center the background image */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.w3-bar .w3-button {
+  padding: 23px;
+  font-size: 20px;
+}
+
+
+.logo{
+  padding:6px;
+  size: 14px;
+}
+
+
+.w3-jumbo,
+.w3-xxlarge,
+.w3-large {
+   color: #443834; 
+}
+
+
+.w3-bar-item.w3-button {
+  display: flex;
+  align-items: center;
+}
+
+.w3-bar-item.w3-button ion-icon {
+  font-size: 1.2em; /* Adjust the icon size relative to the text */
+  margin-right: 5px; /* Optional: Adjust the spacing between the icon and the text */
+}
+
+

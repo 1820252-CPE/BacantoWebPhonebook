@@ -1,0 +1,61 @@
+
+
+
+
+/* Style for the center overlay */
+#center-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1; /* Changed to move behind the form */
+}
+
+/* Style for the image */
+#center-overlay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+body {
+margin: 0;
+padding: 0;
+height: 100vh; /* Set body height to full viewport height */
+background-image: url("evalid.png");
+background-size: cover; /* Fill the background image */
+background-position: center; /* Center the background image */
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.container {
+/* Styles for the button */
+display: inline-block;
+}
+
+.container a {
+/* Button styles */
+padding: 10px 20px;
+border: 2px solid #333; /* Border style */
+background-color: #d9ce83; /* Background color */
+color: #443d4e; /* Text color */
+text-decoration: none; /* Remove underline from link */
+font-size: 16px;
+border-radius: 5px; /* Rounded corners */
+transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.container a:hover {
+/* Button styles on hover */
+background-color: #443d4e; /* Background color on hover */
+color: #FFFFFF; /* Text color on hover */
+}
